@@ -26,9 +26,11 @@ For figure 5, run shap_comp.py
 
 For supplementary figures 1 and 2, run pheno_histograms.py
 
-For supplementary figure 3, run missing_bias.py
+For supplementary figure 3, run first_paper_plots/general_profiles_plot.py glauc_match_profs_right
 
-For supplementary figure 4, run full_bundle_test.py
+For supplementary figure 4, run missing_bias.py
+
+For supplementary figure 5, run full_bundle_test.py
 
 Notice that there are many options for `pheno_of_interest` in primary_match.py.
 This includes the options `"glauc_sec_no_cut"` and `"age_nocut"`, which test
