@@ -12,17 +12,14 @@ run these scripts.
 
 For figure 1, run: first_paper_plots/general_profiles_plot.py glauc_match_profs_left
 
-For figure 2, run primary_match.py with `pheno_of_interest` set to `"glauc_sec"`
-
-For figure 3, run primary_match.py with `pheno_of_interest` set to `"age"`
+For figures 2 and 3, run primary_match.py with `pheno_of_interest` set to `"glauc_sec"`
 
 For figure 4, run these series of commands:
+  * primary_match.py with `pheno_of_interest` set to `"age"`
   * secondary_match.py amd_rob
   * secondary_match.py tenano
   * secondary_match.py glauc_rob
-  *  secondary_match.py amd_rob_age
-
-For figure 5, run shap_comp.py
+  * secondary_match.py amd_rob_age
 
 For supplementary figures 1 and 2, run pheno_histograms.py
 
